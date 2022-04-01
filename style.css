@@ -1,0 +1,35 @@
+body{
+background-size:cover; 
+}
+.heading{
+    width:100%;
+    font-size:25px;
+    margin:0px;
+}
+.hi,#number,#status{
+    font-size:20px;  
+}
+.footer{
+    position :fixed;
+    bottom:2px;
+    width:100%;
+    text-shadow:5px 5px 5px grey;
+    background-color: rgb(156, 154, 154);
+    text-align:center;
+    margin:0px;
+}
+canvas{
+    border:5px dotted red;
+    border-radius:10px;
+    animation-name:animation1;
+    animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes animation1{
+from{
+    box-shadow:5px 5px 5px grey;
+}
+to{
+    box-shadow:5px 5px 5px red;
+}
+}
